@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+
+.app{
+  /* color: red; */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+}
+
+main{
+  flex-grow: 1;
+  width: 60%;
+  max-width: 800px;
+}
+
+body{
+  background-color: aquamarine;
+}

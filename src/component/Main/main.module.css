@@ -1,0 +1,23 @@
+.list{
+  display: grid;
+  grid-template-columns: 70% 10% 10% 10%;
+  align-items: center;
+}
+
+.tools{
+  display: grid;
+  grid-template-columns: 80% 10% 10%;
+  align-items: center;
+}
+
+.tools > input{
+  max-width: 50%;
+  text-align: center;
+}
+
+.tools :not(input){
+  max-width: 35px;
+  height: auto;
+  /* border: solid red 3px; */
+
+}
